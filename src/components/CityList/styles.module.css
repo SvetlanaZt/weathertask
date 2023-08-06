@@ -1,0 +1,13 @@
+.grid {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.grid > * {
+  flex-basis: 18%;
+  flex-shrink: 0;
+}
