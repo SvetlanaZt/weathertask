@@ -82,9 +82,9 @@ function CityList() {
       );
 
       if (totalScore >= MINIMUM_POINTS) {
-        window.confirm("This game is yours");
-      } else {
         window.confirm("You lose");
+      } else {
+        window.confirm("You win");
       }
 
       handleGetCitiesData();
